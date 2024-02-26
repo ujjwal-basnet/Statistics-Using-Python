@@ -12,6 +12,16 @@ This is repo for learning Stastics using python for Machine learning
 
 4) Two variable should have linear relation ship ( draw scattter plot and see wetiher they have linear relation ship or not )
 
+5) Variance of the residuals should be  constant across all levels of the independent variable.
+
+
+## Limitation 
+1) It only measure linear relationshp
+2) It is sensitive to outliers 
+3) It is not suitable for categorical data
+
+
+
 
 
 ## The Pearson correlation coefficient between two variables $X$ and $Y$ is calculated using the following formula:
