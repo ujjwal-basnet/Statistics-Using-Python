@@ -12,25 +12,16 @@ This is repo for learning Stastics using python for Machine learning
 
 4) Two variable should have linear relation ship ( draw scattter plot and see wetiher they have linear relation ship or not )
 
-\documentclass{article}
-\usepackage{xepersian}
 
-\begin{document}
-\title{ضریب همبستگی پیرسون}
-\author{نام شما}
-\maketitle
 
-ضریب همبستگی پیرسون بین دو متغیر $X$ و $Y$ به صورت زیر تعریف می‌شود:
+## The Pearson correlation coefficient between two variables $X$ and $Y$ is calculated using the following formula:
 
-\begin{equation}
+$$
 r_{XY} = \frac{\sum{(X_i - \bar{X})(Y_i - \bar{Y})}}{\sqrt{\sum{(X_i - \bar{X})^2}\sum{(Y_i - \bar{Y})^2}}}
-\end{equation}
+$$
 
-که در آن:
-\begin{itemize}
-    \item $r_{XY}$ ضریب همبستگی پیرسون بین $X$ و $Y$ است.
-    \item $X_i$ و $Y_i$ مقادیر مشاهده شده از متغیرهای $X$ و $Y$ به ترتیب هستند.
-    \item $\bar{X}$ و $\bar{Y}$ نشان دهنده میانگین متغیرهای $X$ و $Y$ هستند.
-\end{itemize}
+Where:
+- $r_{XY}$ is the Pearson correlation coefficient between $X$ and $Y$.
+- $X_i$ and $Y_i$ are the observed values of variables $X$ and $Y$ respectively.
+- $\bar{X}$ and $\bar{Y}$ denote the means of variables $X$ and $Y$ respectively.
 
-\end{document}
